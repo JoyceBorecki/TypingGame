@@ -8,7 +8,7 @@ Este projeto foi desenvolvido utilizando HTML, CSS, JavaScript e PHP, além de p
 
 ## Estrutura do banco de dados
 
-O banco de dados foi nomeado como "typing-game", contendo duas tabelas denominadas "user" e "pontuacao". A tabela "user" é responsável por armazenar as informações dos usuários, tais como id, username e senha. Por outro lado, a tabela "pontuacao" é responsável por armazenar as pontuações dos usuários, juntamente com as respectivas datas e horas, que serão registradas no banco.
+O banco de dados foi nomeado como "typing-game", contendo duas tabelas denominadas "users" e "pontuacao". A tabela "users" é responsável por armazenar as informações dos usuários, tais como id, username e senha. Por outro lado, a tabela "pontuacao" é responsável por armazenar as pontuações dos usuários, juntamente com as respectivas datas e horas, que serão registradas no banco.
 
 ## Por onde começar?
 
