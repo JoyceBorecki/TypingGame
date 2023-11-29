@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url('imagemPrincipal.jpg');
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#frasePrincipal {
+    font-size: 40px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#container {
+    font-size: 20px;
+    color: yellow;
+}
+
+#linhaUm, #linhaDois, #linhaTres {
+    justify-content: center;
+    display: flex;
+    letter-spacing: 25px;
+    margin-top: 10px;
+}
+
+#formularioLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 60px;
+}
+
+.formulario {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+input {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 300px;
+}
+
+label {
+    color: white;
+    text-align: right;
+    width: 120px;
+    margin-right: 14px;
+}
+
+#botaoConfirma {
+    margin-top: 13px;
+    font-family: 'Press Start 2P', sans-serif;
+    width: 120px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    color: #a0c6e4;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url('imagemPrincipal.jpg');
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 40px;
+    position: relative;
+}
+
+#fraseIntro {
+    font-size: 70px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#frasSecund {
+    margin-bottom: 50px;
+    color: white;
+}
+
+.formulario {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario label {
+    text-align: left;
+    margin-bottom: 10px;
+    color: yellow;
+}
+
+.formulario input {
+    padding: 8px;
+    align-self: stretch;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #0077cc;
+}
+
+a:hover {
+    color: #a0c6e4;
+}

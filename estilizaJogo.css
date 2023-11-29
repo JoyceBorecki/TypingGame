@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url('imagemPrincipal.jpg');
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 40px;
+    position: relative;
+}
+
+.container-pontuação,
+.container-cronometro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.container-pontuação {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#score {
+    color: yellow;
+    font-size: 50px;
+}
+
+#pontuação {
+    font-size: 30px;
+}
+
+.container-cronometro {
+    position: absolute;
+    right: 200px;
+    top: 30px;
+    margin-top: 0;
+}
+
+#segundos {
+    margin-top: 15px;
+}
+
+.container-jogo {
+    text-align: center;
+    position: absolute;
+    bottom: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background: transparent;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#palavra {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    bottom: 100px;
+    display: flex;
+}
+
+#entrada {
+    font-family: 'Press Start 2P', sans-serif;
+    padding: 5px 10px;
+    width: 400px;
+    background: transparent;
+    color: white;
+}
+
+#container-letras {
+    font-size: 20px;
+    color: yellow;
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#linhaUm, #linhaDois, #linhaTres {
+    justify-content: center;
+    display: flex;
+    letter-spacing: 25px;
+    margin-top: 10px;
+}
