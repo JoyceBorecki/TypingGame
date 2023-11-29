@@ -12,7 +12,7 @@ O banco de dados foi nomeado como "typing-game", contendo duas tabelas denominad
 
 ## Por onde começar?
 
-Para jogar, o usuário deve clonar o repositório Git em sua máquina. Recomenda-se a utilização do programa "XAMPP" como servidor web local. Após iniciar os servidores do XAMPP, procure pela pasta "htdocs" no diretório onde os arquivos do programa estão armazenados. O repositório do jogo deve estar localizado nessa pasta. Acesse o seguinte endereço no seu navegador: http://localhost/Typing-Game, que abrirá uma página com os arquivos do jogo. Vá até os arquivos "conexao.php" e "cria_tabela.php" para integrar o jogo ao banco de dados. Se nenhuma mensagem de erro aparecer, o usuário pode acessar o arquivo "registro.php" para começar sua jornada gamer no Retro Typing!
+Para jogar, o usuário deve clonar o repositório Git em sua máquina. Recomenda-se a utilização do programa "XAMPP" como servidor web local. Após iniciar os servidores do XAMPP, procure pela pasta "htdocs" no diretório onde os arquivos do programa estão armazenados. O repositório do jogo deve estar localizado nessa pasta. Acesse o seguinte endereço no seu navegador: http://localhost/TypingGame, que abrirá uma página com os arquivos do jogo. Vá até os arquivos "conexao.php" e "cria_tabela.php" para integrar o jogo ao banco de dados. Se nenhuma mensagem de erro aparecer, o usuário pode acessar o arquivo "registro.php" para começar sua jornada gamer no Retro Typing!
 
 ## Dicas
 
